@@ -1,0 +1,1 @@
+execute as @a[tag=sans] run function sans:skill/laser_basic/cooldown
