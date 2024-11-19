@@ -1,2 +1,2 @@
-execute as @p[distance=..5,tag=!sans] run function sans:skill/laser_many/player_chosen
+execute as @p[distance=..5] run function sans:skill/laser_many/player_chosen
 execute unless score #laser_many_chosen sans matches 1 if entity @s[distance=..50] positioned ^ ^ ^3 run function sans:skill/laser_many/choose_player_ray
