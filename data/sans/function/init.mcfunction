@@ -1,4 +1,8 @@
+gamerule keepInventory true
+
 scoreboard objectives add sans dummy
+
+scoreboard objectives add sans_xp level
 
 scoreboard objectives add sans_summon_decay dummy
 scoreboard objectives add sans_cd_laser_basic custom:time_since_death
