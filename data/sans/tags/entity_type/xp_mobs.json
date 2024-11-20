@@ -1,0 +1,12 @@
+{
+    "values": [
+        "zombie",
+        "drowned",
+        "zombie_villager",
+        "skeleton",
+        "creeper",
+        "spider",
+        "pillager",
+        "vindicator"
+    ]
+}

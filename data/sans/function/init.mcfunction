@@ -1,4 +1,16 @@
 gamerule keepInventory true
+gamerule naturalRegeneration false
+gamerule mobGriefing false
+gamerule doMobLoot false
+gamerule doEntityDrops false
+gamerule doInsomnia false
+gamerule doTraderSpawning false
+gamerule doPatrolSpawning false
+gamerule mobGriefing false
+gamerule announceAdvancements false
+time set 6000
+#gamerule doDaylightCycle false
+gamerule spawnRadius 0
 
 scoreboard objectives add sans dummy
 
