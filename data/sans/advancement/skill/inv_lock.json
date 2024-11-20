@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "using_item": {
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "bone"
+                    ],
+                    "predicates": {
+                        "custom_data": "{sans_inv_lock:1b}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "sans:skill/inv_lock/trigger"
+    }
+}

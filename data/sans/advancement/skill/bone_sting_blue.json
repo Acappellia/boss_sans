@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "using_item": {
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "bone"
+                    ],
+                    "predicates": {
+                        "custom_data": "{sans_bone_sting_blue:1b}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "sans:skill/bone_sting_blue/trigger"
+    }
+}

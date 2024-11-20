@@ -8,6 +8,15 @@ scoreboard objectives add sans_summon_decay dummy
 scoreboard objectives add sans_cd_laser_basic custom:time_since_death
 scoreboard objectives add sans_cd_laser_large dummy
 scoreboard objectives add sans_cd_laser_many dummy
+scoreboard objectives add sans_cd_bone_trap dummy
+scoreboard objectives add sans_cd_bone_sting dummy
+scoreboard objectives add sans_cd_gravity dummy
+scoreboard objectives add sans_cd_fly dummy
+scoreboard objectives add sans_cd_inv_lock dummy
+
+scoreboard objectives add sans_cd_det custom:time_since_death
+
+scoreboard objectives add sans_cd_det_laser_large dummy
 
 scoreboard objectives add sans_laser_many_chosen dummy
 

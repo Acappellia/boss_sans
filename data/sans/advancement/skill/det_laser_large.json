@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "using_item": {
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "bone"
+                    ],
+                    "predicates": {
+                        "custom_data": "{sans_det_laser_large:1b}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "sans:skill/det_laser_large/trigger"
+    }
+}

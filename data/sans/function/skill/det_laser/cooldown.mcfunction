@@ -1,0 +1,3 @@
+execute store result score #laser_basic_counts sans run clear @s bone[custom_data~{sans_det_laser:1b}] 0
+execute if score #laser_basic_counts sans matches 0 run clear @s bone[custom_data~{sans_det_laser_cd:1b}]
+execute if score #laser_basic_counts sans matches ..19 run give @s bone[custom_model_data=10000,custom_data={sans_skill:1b,sans_det_laser:1b},food={nutrition:0,saturation:0,can_always_eat:true,eat_seconds:1000000},item_name='[{"text": "决心·龙骨炮"}]'] 1
