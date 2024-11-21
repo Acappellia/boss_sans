@@ -1,5 +1,6 @@
 tag @s remove sans
 attribute @s generic.max_health base set 20
+scoreboard players set @s player_love 20
 effect clear @s absorption
 effect give @s instant_health 1 9 true
 

@@ -1,0 +1,2 @@
+execute as @p[distance=..5,tag=!sans] run function sans:skill/fall/player_chosen
+execute unless score #fall_chosen sans matches 1 if entity @s[distance=..50] positioned ^ ^ ^3 run function sans:skill/fall/choose_player_ray

@@ -1,0 +1,2 @@
+setblock ~ ~ ~ repeating_command_block[conditional=false,facing=up]{Command:"/execute as @a[tag=sans,tag=fly_toggle] run fly",auto:true}
+setblock ~ ~1 ~ chain_command_block[conditional=false,facing=up]{Command:"/tag @a[tag=fly_toggle] remove fly_toggle",auto:true}

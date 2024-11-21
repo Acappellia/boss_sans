@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ #sans:air_blocks_replace unless block ~ ~-1 ~ #sans:air_blocks_replace run function sans:skill/bone_sting_blue/place_sting
+execute unless score #found_ground sans matches 1 if entity @s[distance=..30] positioned ~ ~-1 ~ run function sans:skill/bone_sting_blue/find_ground
