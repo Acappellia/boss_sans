@@ -15,3 +15,4 @@ item replace entity @s armor.body with chainmail_chestplate[unbreakable={},encha
 item replace entity @s armor.head with chainmail_helmet[unbreakable={},enchantments={binding_curse:1}] 1
 item replace entity @s armor.legs with chainmail_leggings[unbreakable={},enchantments={binding_curse:1}] 1
 item replace entity @s armor.feet with chainmail_boots[unbreakable={},enchantments={binding_curse:1,"sans:fall_resistance":1}] 1
+item replace entity @s weapon.offhand with totem_of_undying
