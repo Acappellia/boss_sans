@@ -4,7 +4,7 @@ advancement revoke @s only sans:enchant
 execute unless items entity @s weapon.mainhand #enchantable/durability run return run playsound block.note_block.didgeridoo
 
 ##consume
-execute if score @s sans_xp matches ..4 run return -1
+execute if score @s sans_xp matches ..4 run return run playsound block.note_block.didgeridoo
 xp add @s -5 levels
 
 ##enchant
