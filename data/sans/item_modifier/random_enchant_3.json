@@ -1,0 +1,17 @@
+[
+    {
+        "function": "set_components",
+        "components": {
+            "enchantments": {}
+        }
+    },
+    {
+        "function": "enchant_randomly"
+    },
+    {
+        "function": "enchant_randomly"
+    },
+    {
+        "function": "enchant_randomly"
+    }
+]
