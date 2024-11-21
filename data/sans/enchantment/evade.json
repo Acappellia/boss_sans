@@ -16,22 +16,6 @@
     "supported_items": "#foot_armor",
     "weight": 1,
     "effects": {
-        "damage_immunity": [
-            {
-                "effect": {},
-                "requirements": [
-                    {
-                        "condition": "entity_scores",
-                        "entity": "this",
-                        "scores": {
-                            "sans_xp": {
-                                "min": 1
-                            }
-                        }
-                    }
-                ]
-            }
-        ],
         "post_attack": [
             {
                 "affected": "victim",
