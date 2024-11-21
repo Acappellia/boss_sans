@@ -1,3 +1,7 @@
+advancement revoke @s only sans:enter_determination
+
+execute unless entity @s[tag=sans] run return -1
+
 tag @s add determination
 xp set @s 100 levels
 item replace entity @s armor.feet with chainmail_boots[unbreakable={},enchantments={binding_curse:1,"sans:fall_resistance":1,"sans:evade":1}] 1
