@@ -10,4 +10,5 @@ scoreboard players set @s sans_cd_det -4
 xp add @s -8 levels
 
 ##effect
-execute as @a[tag=!sans] at @s align xyz run function sans:skill/bone_sting_blue/summon
+execute as @a[tag=sans] at @s align xyz positioned ~0.5 ~ ~0.5 run function sans:skill/bone_sting_blue/summon_rec_start
+execute as @e[type=item_display,tag=bone_sting_blue] if predicate sans:50_chance run kill @s

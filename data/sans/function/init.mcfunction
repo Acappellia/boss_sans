@@ -11,6 +11,7 @@ gamerule announceAdvancements false
 time set 6000
 #gamerule doDaylightCycle false
 gamerule spawnRadius 0
+gamerule maxCommandChainLength 524288
 
 scoreboard objectives add sans dummy
 
