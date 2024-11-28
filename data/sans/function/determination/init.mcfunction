@@ -15,4 +15,6 @@ give @s bone[custom_model_data=10008,custom_data={sans_skill:1b,sans_bone_sting_
 give @s bone[custom_model_data=10009,custom_data={sans_skill:1b,sans_fall:1b},food={nutrition:0,saturation:0,can_always_eat:true,eat_seconds:1000000},item_name='[{"text": "重摔"}]'] 1
 
 ##tellraw
-title @a title "sans 充满了决心"
+title @a times 5 40 20
+title @a title [{"text": "sans"},{"text": " 充满了决心"}]
+execute at @a run playsound block.end_portal.spawn player @s ~ ~ ~

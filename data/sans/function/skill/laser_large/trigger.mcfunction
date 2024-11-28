@@ -5,3 +5,4 @@ item replace entity @s weapon.mainhand with bone[custom_model_data=10001,custom_
 
 ##summon
 execute anchored eyes positioned ^ ^-1 ^1 summon item_display run function sans:skill/laser_large/summon
+playsound entity.blaze.shoot player @a ~ ~ ~ 0.5 0.7

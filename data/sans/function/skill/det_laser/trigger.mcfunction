@@ -14,3 +14,4 @@ execute if score #laser_basic_counts sans matches 1 run item replace entity @s w
 ##summon
 execute anchored eyes positioned ^ ^-1 ^1 summon item_display run function sans:skill/laser_basic/summon
 execute at @n[type=item_display,tag=sans_summon_laser_basic,tag=!shoot] run function sans:skill/laser_basic/ray
+playsound entity.shulker.shoot player @a ~ ~ ~ 0.5 0.8
